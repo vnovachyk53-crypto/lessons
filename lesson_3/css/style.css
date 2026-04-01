@@ -1,0 +1,65 @@
+@import url("reset.css");
+
+* {
+	color: #000;
+}
+h1 {
+	color: aquamarine;
+}
+p {
+	color: #511d27;
+}
+.short {
+	color: palevioletred;
+}
+.population {
+	color: blueviolet;
+}
+.first {
+	color: darkcyan;
+}
+.crimatars {
+	color: darkmagenta;
+}
+.religion {
+	color: darkslateblue;
+}
+.government{
+	color: darkslategray;
+}
+.regions {
+	color: darkolivegreen;
+}
+.soviet {
+	color: darkred;
+}
+.todays {
+	color: darkblue;
+}
+.revolution {
+	color: darkgreen;
+}
+#rgr {
+	color: darkorange;
+}
+[class*="tl"] {
+	color: darkslategray;
+}
+a.link {
+	color: brown;
+}
+.secondlist > li {
+	color: indigo;
+}
+footer div a strong {
+	color: green;
+}
+.contacts .contacts-info strong {
+	color: darkcyan;
+}
+.contacts .contacts-info span {
+	color: darkmagenta;
+}
+.contacts .contacts-info a {
+	color: darkslateblue;
+}
