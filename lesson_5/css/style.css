@@ -110,6 +110,7 @@ span {
 }
 .furino{
 	font-family: "Poppins", sans-serif;
+	margin: 0 auto;
 	background-color:  #FFF3E3;
 	padding-left: 39px;
 	padding-top: 62px;
@@ -119,19 +120,20 @@ span {
 	letter-spacing: 0px;
 	color: #333333;	
 }
-.furino-small-title{
+.furino-title div{
 	font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 3px;
 	padding-bottom: 4px;
 }
-.furino-big-title{
+.furino-title span{
+	display: block;
 	font-weight: 700;
 	font-size: 52px;
 	color: #B88E2F;
 	text-transform: capitalize;
 	line-height: 1.25;
-	padding-bottom: 17px;
+	padding-bottom: 18px;
 }
 .furino-text{
 	font-weight: 500;
@@ -153,4 +155,11 @@ span {
 	padding-top: 30px;
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+footer div{
+	margin-top: 50px;
+	font-size: 80px;
+	font-weight: 600;
+	color: aqua;
+	margin-top: 70px;
 }
