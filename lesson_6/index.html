@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&amp;display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&amp;display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Урок №6 - CSS-властивості оформлення блоків, властивість background</title>
+</head>
+
+<body>
+	<header>
+		<h1>
+			Привіт! сьогодні я вам покажу властивості оформлення блоків
+		</h1>
+	</header>
+	<main>
+		<section class="border">
+			<h2>
+				Border
+			</h2>
+			<div class="border-top-example">
+				Цей блок має кордо з верху 20px, крапкогого стилю та зеленого кольору
+			</div>
+
+			<div class="border-radius-example">
+				Цей блок має заокруглення 20px 10px 5px 50px
+			</div>
+			<div class="circle">
+				Це коло доречі
+			</div>
+		</section>
+		<section class="outline">
+			<h3>
+				Outline
+			</h3>
+			<div class="outline-example">
+				Цей блок має зовнішні кордони зеленого кольору товщиною 23px
+			</div>
+		</section>
+		<section class="box-shadow">
+			<h3>
+				Box-shadow
+			</h3>
+			<div class="box-shadow-example">
+				Цей блок має тінь з зі всіх боків 10px жовтого кольору
+			</div>
+			<div class="circle-shadow">
+				Це коло з тінню
+			</div>
+		</section>
+		<section class="visibility">
+			<h3>
+				visibility ~ opacity ~ display
+			</h3>
+			<div class="visibility-hiden">
+				Цей блок не видно з допомого visibility-hide
+			</div>
+			<div class="opasity-zero">
+				Цей блок не видно з допомогою opasity-zero
+			</div>
+			<div class="display-none">
+				Цей блок не видно з допомогою display-none
+			</div>
+		</section>
+		<section class="background">
+			<h3>
+				Background
+			</h3>
+			<div class="background-color-example">
+				Цей блок має зелений колір фону
+			</div>
+			<div class="background-image">
+				<div class="background-image-photo">
+					У цього блока на фоні картинка
+				</div>
+				<div class="background-image-gradient">
+					У цього блока на фоні градієнт
+				</div>
+			</div>
+			<div class="background-image-photo-no-repeat">
+				Фотка на фоні цього блока зображення не буде повторюватись
+			</div>
+			<div class="background-image-photo-fixed">
+				Ця фотка буде закріпленна по сторінці
+			</div>
+		</section>
+
+		<!-- Furniro Hero block  -->
+		<section class="furniro-hero">
+			<div class="furniro-container">
+				<div class="furniro-hero-content">
+					<img src="img/furniro/furniro_hero_logo.png" class="furniro-hero-logo"
+						alt="Furniro small logo hero">
+					<h3 class="furniro-hero-title">
+						Checkout
+					</h3>
+					<div class="breadcrumbs">
+						<a href="#">
+							<span>
+								Home
+							</span>
+						</a>
+						<img src="img/furniro/arrow.svg" alt="">
+						<span>
+							Checkout
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Catalyst Hero Block -->
+		<section class="catalyst-hero">
+			<div class="catalyst-hero-container">
+				<div class="catalyst-hero-content">
+					<h3>
+						Web Designer
+					</h3>
+					<a href="#">
+						Apply Now
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- Catalyst list-->
+		<section class="article">
+			<div class="article-container">
+				<div class="article-content">
+					<h4>
+						About this position
+					</h4>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged.
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum.
+					</p>
+					<h4>
+						Responsibilities
+					</h4>
+					<ul>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s,
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s,
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's
+						</li>
+					</ul>
+					<h4>
+						Requirements
+					</h4>
+					<ul>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text ever since the 1500s,
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's
+						</li>
+						<li>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been the industry's standard dummy text
+						</li>
+					</ul>
+					<h4>
+						Benefits
+					</h4>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book.
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged.
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+						of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+						but also the leap into electronic typesetting, remaining essentially unchanged. It was
+						popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+						and more recently with desktop publishing software like Aldus PageMaker including versions of
+						Lorem Ipsum.
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>
+			its a footer
+		</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+@import url("reset.css");
+
+[class*="example"] {
+	background-color: red;
+	padding: 50px;
+	margin: 50px;
+	color: aquamarine;
+}
+
+header h1 {
+	font-size: 32px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.border-top-example {
+	border-top: 20px dotted green;
+}
+
+.border-radius-example {
+	border-radius: 20px 10px 5px 50px;
+}
+
+.outline-example{
+	outline: 23px solid green;
+}
+
+.circle {
+	background-color: red;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	padding-block: 90px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.6;
+}
+
+.box-shadow-example{
+	box-shadow: 10px 10px 10px 10px yellow;
+}
+
+.circle-shadow {
+	background-color: red;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	padding-block: 70px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 10px 10px 10px 10px yellow;
+}
+
+.visibility h3 {
+	font-weight: 600;
+	font-size: 42px;
+	text-align: center;
+}
+
+.visibility-hiden {
+	visibility: hidden;
+}
+
+.opasity-zero {
+	opacity: 0;
+}
+
+.display-none {
+	display: none;
+}
+
+.background-color-example {
+	background-color: green;
+	text-align: right;
+}
+
+.background-image-photo {
+	text-align: center;
+	font-size: 32px;
+	padding: 50px;
+	background-image: url(../img/flower_background_image.png)
+}
+
+.background-image-gradient {
+	text-align: center;
+	font-size: 32px;
+	padding: 50px;
+	background-image: linear-gradient(18deg, rgba(11, 10, 20, 1) 20%, rgba(191, 21, 56, 1) 57%, rgba(20, 17, 10, 1) 100%, rgba(20, 17, 10, 1) 100%);
+	color: aqua;
+}
+
+.background-image-photo-no-repeat {
+	text-align: center;
+	font-size: 32px;
+	padding: 50px;
+	background-image: url(../img/flower_background_image.png);
+	background-repeat: no-repeat;
+}
+
+.background-image-photo-fixed {
+	background-image: url(../img/flower_background_image.png);
+	background-attachment: fixed;
+	padding: 50px;
+	text-align: center;
+	font-size: 32px;
+}
+
+
+/*Furniro Hero block*/
+.furniro-hero {
+	background: url(../img/furniro/furniro_hero.png) 0 0 /100% no-repeat;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 60px;
+}
+
+.furniro-container {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding-inline: 15px;
+}
+
+.furniro-hero-content {
+	padding: 60px 0 98px;
+}
+
+.furniro-hero-logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 77px;
+	max-height: 77px;
+}
+
+.furniro-hero-title {
+	font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.breadcrumbs {
+	font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.breadcrumbs a {
+	font-weight: 500;
+}
+
+.breadcrumbs img {
+	padding: 4px 12px;
+}
+
+/* Catalyst Hero Block */
+
+.catalyst-hero {
+	background: url(../img/catalyst/catalyst_background_image.png) 0 0 /100% no-repeat #000;
+	font-family: "Barlow", sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+.catalyst-hero-container {
+	max-width: 1300px;
+	padding-inline: 15px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.catalyst-hero-content {
+	padding: 94px 0 86px;
+}
+
+.catalyst-hero-content h3 {
+	font-weight: 800;
+	line-height: 1.5;
+	font-size: 64px;
+	color: #F9EFEC;
+	padding-bottom: 17px;
+	text-transform: uppercase;
+}
+
+.catalyst-hero-content a { 
+	font-family: "Roboto Flex", sans-serif;
+	font-weight: 500;
+	background-color: #0A84FF;
+	padding: 14px 78px;
+	border-radius: 12px;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 1.5;
+}
+
+/* Catalyst list */
+
+.article {
+	background-color: #030303;
+	height: 100%;
+	width: 100%;
+	font-family: "Barlow", sans-serif;
+	padding-top: 36px;
+}
+
+.article-container {
+	margin: 0 auto;
+	max-width: 864px;
+	padding-inline: 15px;
+}
+
+.article-content {
+	background-color: #1A1A1A;
+	border-radius: 12px;
+	padding: 32px;
+}
+
+.article-content h4 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.5;
+	color: #F9EFEC;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.article-content p {
+	color: #B3B3B2;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-bottom: 38px;
+}
+
+.article-content ul li {	
+	padding-bottom: 22px;
+	background: url("../img/catalyst/before_list_symvol.svg") 0 0 / 16px no-repeat;
+	padding-left: 26px;
+	min-height: 16px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #B3B3B2;
+}
