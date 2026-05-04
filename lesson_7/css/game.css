@@ -1,0 +1,157 @@
+@import url(reset.css);
+@import url(menu.css);
+
+.game {
+	background-color: aquamarine;
+	width: 100%;
+	height: 100%;
+}
+.game-container {
+	background-color: #343893;
+	max-width: 1230px;
+	height: 730px;
+	margin: 15px auto 0;
+	margin-top: 15px;
+	padding-inline: 15px;
+	
+}
+
+/* game-blocks */
+
+.game-blocks {
+	width: 100px;
+	height: 100px;
+	visibility: hidden;
+	background-color: #fff;
+}
+
+.game-blocks:nth-child(1){
+	visibility: visible;
+}
+
+.game-blocks:hover+div,
+.game-blocks:hover{
+	visibility: visible;
+}
+
+.game-blocks:nth-child(8){
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(9){
+	margin-left: 200px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(10){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(11){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(12){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(13){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(14){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(15){
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.game-blocks:nth-child(16){
+	margin-left: 300px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(17){
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(18){
+	margin-left: 500px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(19){
+	margin-left: 600px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(20){
+	margin-left: 700px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(21){
+	margin-left: 800px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(22){
+	margin-left: 900px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(23){
+	margin-left: 1000px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(24){
+	margin-left: 1100px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(25){
+	margin-left: 1100px;
+	/* margin-top: -100px; */
+}
+
+.game-blocks:nth-child(26){
+	margin-left: 1100px;
+	margin-top: -100px;
+}
+
+.game-blocks:nth-child(27){
+	margin-left: 1100px;
+}
+
+.game-blocks:nth-child(28){
+	margin-left: 1100px;
+}
+
+.game-blocks:nth-child(29){
+	margin-left: 1100px;
+}
+
+.game-blocks:nth-child(30){
+	margin-left: 1100px;
+}
+.game-blocks:last-child {
+	background-color: yellow;
+}
+.game-blocks:last-child::after {
+	content: 'finish';
+	width: 100px;
+	height: 50px;
+}
+
+
+

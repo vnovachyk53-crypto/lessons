@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Псевдокласи та псевдоелементи</title>
+</head>
+
+<body>
+	<header>
+		<h1>
+			Привіт! сьогодні я вам покажу як працюють псевдокласи та псевдоелементи
+		</h1>
+		<div class="top-menu-container">
+			<ul class="menu">
+				<li class="menu-item">
+					<a href="#" class="menu-item-link active">HOMEPAGE</a>
+				</li>
+				<li class="menu-item">
+					<a href="dz.html" class="menu-item-link">AGROLINK PAGE</a>
+				</li>
+				<li class="menu-item">
+					<a href="game.html" class="menu-item-link">GAMEPAGE</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="classes">
+			<h2>
+				classes
+			</h2>
+			<div class="hover">
+				При наведенні фон цього тексту буде змінюватись на зелений
+			</div>
+			<div class="active">
+				При натисканні фон цього тексту буде змінюватись на жовто-зелений
+			</div>
+			<a href="#focus	" class="visited">
+				Фон цього посилання зіниться на інший коли ви вже зайшли на нього(властивість visited)
+			</a>
+			<div id="focus">
+				<a href="#target">
+					При переміщені на цей блок він змінить колір фону(використовуйте попереднє посилання)
+				</a>
+			</div>
+			<div id="target">
+				При переході на цей блок його фон зміниться на зелений(використовуйте попередній блок)
+			</div>
+		</section>
+		<section class="child">
+			<h2>
+				child
+			</h2>
+			<div class="first-child">
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону але якщо перед ним додати ще щось то стилів
+					не буде
+				</p>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+			</div>
+			<div class="first-of-type">
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в незалежності якщо перед ним ставити щось
+				</p>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+			</div>
+			<div class="last-child">
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в залежності якщо після нього ставити щось
+				</p>
+			</div>
+			<div class="last-of-type">
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в незалежності якщо після нього ставити
+					щось
+				</p>
+			</div>
+			<div class="nth-child">
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону бо він третій
+					але якщо перед нним поставити ще один то він втратить колір
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+			</div>
+			<div class="nth-of-type">
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в незалежності якщо перед ним ставити щось
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+			</div>
+			<div class="every-four">
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в незалежності якщо перед ним ставити щось
+				</p>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente.1
+				</p>
+				<p>
+					У цих параграфах тільки цей буде мати зелений колір фону в незалежності якщо перед ним ставити щось
+				</p>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque deleniti, quam, perspiciatis,
+					voluptatibus similique blanditiis ipsum maxime enim explicabo expedita porro. At repellendus soluta
+					iusto ex doloremque reiciendis officiis eaque!
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis provident quidem,
+					iure aperiam nisi quas atque dolor voluptatibus, fuga ab! Aut inventore nostrum dicta! Dolore
+					pariatur autem ducimus similique?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iste, omnis consequuntur dignissimos
+					iure eligendi. Reiciendis a reprehenderit ex id molestiae, maxime eos eligendi eveniet, labore
+					omnis, iusto beatae enim.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita dolorum laboriosam praesentium
+					iste voluptas officiis odio incidunt, harum eveniet dignissimos commodi repudiandae fuga cum! Labore
+					expedita praesentium cum suscipit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facere, aspernatur iure consectetur
+					harum, illum dolorum nobis sed quod tenetur quia totam et recusandae vero. Officia delectus
+					assumenda doloremque sapiente
+				</p>
+			</div>
+		</section>
+		<section class="elements">
+			<h2>
+				elements
+			</h2>
+			<div class="before">
+				<ul>
+					<li>
+						Цей список має прикольні крапочки
+					</li>
+					<li>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, in.
+					</li>
+					<li>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, in.
+					</li>
+					<li>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, in.
+					</li>
+				</ul>
+			</div>
+			<div class="after">
+				<p>
+					Після цього тексту є стрілочка
+				</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>
+			its a footer
+		</p>
+	</footer>
+</body>
+
+</html>

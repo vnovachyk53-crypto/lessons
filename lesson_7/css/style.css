@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url(menu.css);
+
+div {
+	background-color: red;
+	padding: 50px;
+	margin: 50px;
+	text-align: center;
+	font-size: 23px;
+} 
+
+a {
+	background-color: red;
+	padding: 50px;
+	margin: 50px;
+	color: aquamarine;
+	text-align: center;
+	font-size: 23px;
+	display: inline-block;
+}
+
+.hover:hover {
+	background-color: green;
+}
+
+div .active:active{
+	background-color: yellowgreen;
+}
+
+.visited:visited {
+	background-color: #814886;
+}
+#focus:focus-visible{
+	background-color: #346345;
+}
+
+#target:target{
+	background-color: blue;
+}
+
+.child div {
+	background: transparent;
+}
+
+.child div p {
+	padding-bottom: 20px;
+}
+
+.first-child p:first-child{
+	background-color: green;
+}
+
+.first-of-type p:first-of-type{
+	background-color: green;
+}
+
+.last-child p:last-child{
+	background-color: green;
+}
+
+.last-of-type p:last-of-type{
+	background-color: green;
+}
+
+.nth-child p:nth-child(3){
+	background-color: green;
+}
+
+.nth-of-type p:nth-of-type(4) {
+	background-color: green;
+}
+
+.every-four p:nth-of-type(4n) {
+	background-color: green;
+}
+
+.before ul li::before{
+	content: "";
+	width: 20px;
+	vertical-align: middle;
+	background-color: #768963;
+	margin-right: 10px;
+	height: 20px;
+}
+
+.after p::after{
+	content: url(../img/Path.svg)
+}
