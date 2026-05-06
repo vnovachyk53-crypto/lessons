@@ -1,0 +1,104 @@
+@import url("reset.css");
+
+*{
+	background-color: bisque;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: darkslateblue;
+	text-shadow: 10px 0px 10px rgba(25, 25, 25, 1);
+}
+
+header p{ 
+	display: inline-block;
+	font-weight: 700;
+	margin: 6px;
+	font-size: 20px;
+	color: blue;
+}
+
+header ul li:nth-child(1) {
+	font-size: 28px;
+	margin: 4px;
+}
+
+header ul li:nth-child(1)::before{
+	content: url(../img/personal-office.svg);
+}
+
+header ul li:nth-child(2) {
+	font-size: 28px;
+	margin: 4px;
+}
+
+header ul li:nth-child(2)::before{
+	content: url(../img/search.svg);
+}
+
+header ul li:nth-child(3) {
+	font-size: 28px;
+	margin: 4px;
+}
+
+header ul li:nth-child(3)::before{
+	content: url(../img/favorites.svg);
+}
+
+header ul li:nth-child(4) {
+	font-size: 28px;
+	margin: 4px;
+}
+
+header ul li:nth-child(4)::before{
+	content: url(../img/shopping-cart.svg);
+}
+
+.furniro-header img{
+	margin-left: 700px;
+}
+
+.furniro-header ul li{
+	text-align: center;
+	color: aqua;
+}
+
+.furniro-hero-container {
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+.furniro-hero-container p {
+	margin: 0 auto;
+	max-width: 1500px;
+	text-align: center;
+	font-size: 50px;
+	color: blueviolet;
+}
+
+.firstx-secondx-thirdx {
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+.firstx-secondx-thirdx p {
+	margin: 0 auto;
+	max-width: 1500px;
+	text-align: center;
+	font-size: 50px;
+	color: blueviolet;
+}
+
+.webp-avif {
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+.webp-avif p {
+	margin: 0 auto;
+	max-width: 1500px;
+	text-align: center;
+	font-size: 50px;
+	color: blueviolet;
+}
