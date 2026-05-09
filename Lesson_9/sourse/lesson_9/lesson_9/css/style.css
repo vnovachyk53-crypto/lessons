@@ -1,0 +1,55 @@
+/* @import url("reset.css"); */
+
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+/* Підключення віддалених шрифтів */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap"); */
+
+/* Значення за замовченням  */
+body {
+	/* font-family: "InterDisplay"; */
+	font-family: "Poppins", sans-serif;
+
+	padding: 30px;
+	/* background-color: #333; */
+	color: #fff;
+}
+/* ======================================================== */
+
+.section-header {
+	/* Заборонено */
+	/* margin-bottom: 50px; */
+}
+.section-header--margin {
+	/* Дозволено */
+	margin-bottom: 50px;
+}
+
+.section-header--black {
+	background-color: #000;
+}
+.section-header--center {
+	text-align: center;
+}
+
+.item-gallery {
+	/* Заборонено */
+	/* margin-bottom: 50px; */
+}
+
+.gallery__item {
+	/* Дозволено */
+	margin-bottom: 50px;
+}
+.news__item {
+	/* Дозволено */
+	margin-bottom: 20px;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}

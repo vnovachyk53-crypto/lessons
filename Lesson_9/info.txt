@@ -1,0 +1,10 @@
+🟢  Посилання на урок:
+https://youtube.com/live/SajyD_3GVd0?feature=share
+🤓  Домашнє завдання:
+1) Вчимо теорію, аналізуємо матеріали уроку
+2) Експериментуємо
+3) Пишемо HTML (CSS перевірятись не буде) сторінки (на скріні), намагаючись максимально всім елементам надавати класи
+
+Валідатори для методології БЕМ:
+https://arkanit7.github.io/bem-validator-extended/
+https://bem-cheat-sheet.9elements.com/
