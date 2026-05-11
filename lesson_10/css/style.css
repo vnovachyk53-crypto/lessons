@@ -1,0 +1,181 @@
+@import url("reset.css");
+@import url(fonts.css);
+
+.top-menu{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 10px;
+	z-index: 4;
+}
+
+.top-menu-container {
+	max-width: 1500px;
+	margin: 0 auto;
+	padding-inline: 15px;
+	background-color: aqua;
+}
+
+
+
+.top-menu-item{
+	display: inline-block;
+	padding-inline: 15px;
+
+}
+
+.top-menu-item:nth-of-type(5) {
+	position: relative;
+}
+
+.top-menu-link{
+	font-size: 30px;
+}
+
+
+
+.top-menu-item:nth-of-type(5) .top-menu-link:hover+ul{
+	visibility: visible;
+}
+
+
+.submenu-items {
+	visibility: hidden;
+	position: absolute;
+	z-index: 4;
+	background-color: gold;
+	padding: 4px;
+	color: firebrick;
+	font-size: 20px;
+
+}
+
+.top-menu-item:nth-of-type(5) .top-menu-link:hover+ul,
+.submenu-items:hover{
+	visibility: visible;
+}
+
+
+.submenu-item:nth-of-type(2):hover+div{
+	visibility: visible;
+}
+
+.sub-menu.items{
+	visibility: hidden;
+	background-color: green;
+	position: relative;
+	left: 90px;
+	top: 0;
+	padding: 5px;
+}
+
+.submenu-item:nth-of-type(2) a:hover+ul,
+.sub-menu.items:hover{
+	visibility: visible;
+}
+
+/* .list {
+}
+.items {
+}
+.item {
+} */
+
+.positions-container{
+	margin-top: 100px;
+}
+
+.positions-container div{
+	font-size: 20px;
+	color: brown;
+}
+
+#first {
+	position: relative;
+}
+
+.positions-container #first div:nth-of-type(1){
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background-color: #777542;
+	text-align: center;
+	color: aqua;
+}
+
+#second {
+	position: relative;
+}
+
+.positions-container #second div:nth-of-type(1){
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background-color: #777542;
+	text-align: center;
+	color: aqua;
+}
+
+#third {
+	position: relative;
+}
+
+.positions-container #third div:nth-of-type(1){
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background-color: #777542;
+	text-align: center;
+	color: aqua;
+}
+
+#figma {
+	background-color: #030303;
+	width: 100%;
+	height: 100%;
+	font-family: "Barlow" , sans-serif;
+}
+
+.figma-container{
+	max-width: 864px;
+	background-color: #1A1A1A;
+	margin: 0 auto;
+	padding-inline: 15px;
+	border-radius: 12px;
+}
+
+.figma-content {
+	padding: 32px;
+}
+
+.figma-headline {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #F9EFEC;
+	margin-bottom: 12px;
+}
+
+.responsibilities-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #B3B3B2;
+	padding-left: 26px;
+	position: relative;
+    margin-bottom: 12px;
+}
+
+.responsibilities-item::before{
+	content: "";
+	background: url(../img/beforeimage.svg) 0 0 / 16px no-repeat;
+	width: 16px;
+	height: 20px;
+    min-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
