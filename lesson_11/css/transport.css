@@ -1,0 +1,47 @@
+@import url("reset.css");
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+}
+
+.to-main{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 110px auto;
+}
+
+
+.to-main-item {
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+}
+
+.to-main-item:hover{
+	color: blue;
+}
+
+.wheel-image {
+	width: 400px;
+	height: 400px;
+	margin-left: 200px;
+	display: block;
+}
+
+.wheel-image:nth-child(1):hover{
+	rotate: 360deg;
+	transition: 5s ease;
+}
+
+.wheel-image:nth-child(2){
+	margin-left: 900px;
+	margin-top: -400px;
+}
+
+.wheel-image:nth-child(2):hover{
+	rotate: 360deg;
+	transition: 5s ease;
+}

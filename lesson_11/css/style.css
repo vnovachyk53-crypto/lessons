@@ -1,0 +1,110 @@
+@import url("reset.css");
+
+*{
+	background-color: gray;
+}
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+	background-color: #000;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.to-transport{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 20px auto;
+
+	width: 70%;
+}
+
+.to-transport-item a {
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+	background-color: #000;
+	margin: 0 auto;
+	display: block;
+}
+
+.to-transport-item:hover{
+	color: blue;
+}
+
+.second-dimension div{
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+}
+
+[class*="headline"] {
+	color: blueviolet;
+	font-size: 40px;
+	text-align: center;
+}
+
+[class*="exemple"] {
+	background-color: #222314;
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+}
+
+[class*="block"] {
+	background: #256106;
+	padding: 15px;
+	color: beige;
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+}
+
+.translate-block {
+	translate: 30px 15px;
+}
+
+.scale-block {
+	scale: 0.5;
+}
+
+.rotate-block {
+	rotate: 45deg;
+}
+
+.skew-block {
+	transform: skew(15deg, 25deg);
+}
+
+.translate-third-exemple {
+	perspective-origin: center;
+	perspective: 500px;
+	transform-style: preserve-3d;
+}
+
+.scale-third-exemple {
+	perspective-origin: center;
+	perspective: 500px;
+	transform-style: preserve-3d;
+}
+
+.rotate-third-exemple {
+	perspective-origin: center;
+	perspective: 500px;
+	transform-style: preserve-3d;
+}
+
+.translate-third-block {
+	transform: translate3d(10px,10px,20px);
+}
+
+.scale-third-block {
+	transform: scale3d(0.5 , 0.5 , 0.5);
+}
+
+.rotate-third-block {
+	transform: rotate3d(25 , 15 , -10 , -19deg);
+}
