@@ -1,0 +1,155 @@
+@import url("reset.css");
+
+body{
+	background-color: gray;
+}
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+	background-color: #000;
+	width: 70%;
+	margin: 20px auto;
+}
+
+.to-transport{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 20px auto;
+	width: 70%;
+}
+
+.to-transport-item a {
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+	background-color: #000;
+	margin: 0 auto;
+	display: block;
+	transition-duration: 0.3s;
+}
+
+.to-transport-item a:hover{
+	color: blue;
+
+}
+
+.transition-examples {
+	background-color: #69765294;
+	max-width: 1500px;
+	padding: 30px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.transition-examples div {
+	transition-duration: 0.3s;
+	transition-property: all;
+	transition-delay: 0.1s;
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	background-color: green;
+	padding: 15px;
+	color: aliceblue;
+	margin-bottom: 20px;
+	font-size: 20px;
+
+}
+
+.transition-examples div:hover {
+	font-size: 30px;
+	background-color: blue;
+	padding: 20px;
+	color: #fff;
+}
+
+.transition-examples .transition-duration-example {
+	transition-duration: 1s;
+}
+.transition-examples .transition-property-example {
+	transition-property: background-color;
+}
+
+.transition-examples .transition-property-example:hover {
+	font-size: 20px;
+	padding: 15px;
+}
+
+.transition-examples .transition-delay-example {
+	transition-delay: 1s;
+}
+.transition-examples .transition-timing-function-example {
+	transition-timing-function: steps(3, start);
+}
+
+@keyframes change-bg {
+	0% {
+		background-color: green;
+	}
+
+	50% {
+		background-color: red;
+	}
+	100% {
+		background-color: blue;
+	}
+}
+
+@keyframes increase-font {
+	0% {
+		font-size: 30px;
+	}
+	100% {
+		font-size: 50px;
+	}
+}
+
+.animations-examples {
+	background-color: #69765294;
+	max-width: 1500px;
+	padding: 30px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.animations-examples div{
+	background-color: green;
+	padding: 15px;
+	color: aliceblue;
+	margin-bottom: 20px;
+	font-size: 20px;
+	animation-name: change-bg , increase-font;
+	animation-duration: 0.3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+}
+
+.animations-examples .animation-duration-example{
+	animation-duration: 0.5s;
+}
+
+.animations-examples .animation-timing-function-example{
+	animation-timing-function: cubic-bezier(0, -0.47, 0.82, 0);
+}
+
+.animations-examples .animation-iteration-count-example {
+	animation-iteration-count: infinite;
+}
+
+.animations-examples .animation-direction-example {
+	animation-direction: reverse;
+}
+
+.animations-examples .animation-play-state-example {
+	animation-iteration-count: 50;
+}
+
+.animations-examples .animation-play-state-example:hover {
+	animation-play-state: paused;
+}
+
+.animations-examples .animation-delay-example {
+	animation-delay: 0.5s ;
+}

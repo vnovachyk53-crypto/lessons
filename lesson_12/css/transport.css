@@ -1,0 +1,185 @@
+@import url("reset.css");
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+}
+
+.to-main{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 110px auto;
+}
+
+
+.to-main-item {
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+}
+
+.to-main-item:hover{
+	color: blue;
+}
+
+
+@keyframes spin {
+	0% {
+		rotate: 0deg;
+	}
+	100% {
+		rotate: 360deg;
+	}
+}
+
+.transport-container {
+	position: relative;
+}
+
+.transport-container div:first-child{
+	background-color: red;
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	top: 20px;
+	left: 450px;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+}
+
+.transport-container div:first-child div{
+	background-color: aqua;
+	width: 400px;
+	height: 160px;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	z-index: 1;
+	border-top-left-radius: 0; 
+	border-top-right-radius: 0; 
+}
+
+.transport-container div:nth-child(2) {
+	width: 1100px;
+	height: 250px;
+	background-color: red;
+	position: absolute;
+	top: 220px;
+	left: 250px;
+	border-radius: 20px;
+}
+
+.transport-container div:nth-child(2) div:first-child {
+	background-color: yellow;
+	height: 50px;
+	width: 50px;
+	top: 0;
+	left: 1050px;
+	z-index: 1;
+	border-top-left-radius: 0;
+	border-left: #000 solid 3px;
+	border-bottom: #000 solid 3px;
+	position: relative;
+}
+
+.transport-container div:nth-child(2) div:first-child div{
+	width: 0;
+    height: 0;
+	border-left: transparent solid 3px;
+    border-top: 50px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 50px solid transparent;
+	background-color: transparent;
+	position: absolute;
+	top: -25px;
+}
+
+.transport-container div:nth-child(2) div:first-child:hover div{
+	border-right-color:  rgba(255, 255, 0, 0.3);
+}
+
+.transport-container div:nth-child(2) div:last-child{
+	height: 50px;
+	width: 50px;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	background-color: #ff4d4d;
+	border-radius: 20px 0 0 0;
+	border-right: #000 solid 3px;
+	border-bottom: #000 solid 3px;
+	position: relative;
+	top: -50px;
+}
+
+.transport-container div:nth-child(2) div:last-child div {
+	width: 0;
+    height: 0;
+	background-color: transparent;
+	border-right: transparent solid 3px;
+    border-top: 50px solid transparent;
+    border-left: 400px solid transparent;
+    border-bottom: 50px solid transparent;
+	position: absolute;
+	left: -380px;
+	top: -25px;
+}
+
+.transport-container div:nth-child(2) div:last-child:hover div {
+	border-left-color: rgba(255, 77, 77, 0.3);
+}
+
+
+
+
+
+/* wheels */
+.transport-container div:nth-child(3) {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: green ;
+	border-radius: 50%;
+	border: 10px dashed #000;
+	top: 325px;
+	left: 350px;
+	animation-name: spin;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+.transport-container div:nth-child(3):hover, 
+.transport-container div:nth-child(3):hover+div{
+	animation-duration: 1.5s;
+}
+
+
+.transport-container div:nth-child(4) {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: green ;
+	border-radius: 50%;
+	border: 10px dashed #000;
+	top: 325px;
+	left: 1050px;
+	animation-name: spin;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+.transport-container:has(div:nth-child(4):hover) div:nth-child(3),
+.transport-container div:nth-child(4):hover{
+    animation-duration: 1.5s;
+}
+
+footer p{
+	position: absolute;
+	top: 1300px;
+}
