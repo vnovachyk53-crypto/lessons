@@ -147,7 +147,7 @@
 	background-color: #E97171;
 	border-radius: 50%;
 	font-size: 16px;
-	font-weight: 500px;
+	font-weight: 500;
 	line-height: 1.5;
 	padding: 12px 2px 12px 5px;
 	color: #fff;
@@ -242,7 +242,7 @@
 	transition-duration: 0.3s;
 	visibility: hidden;
     opacity: 0; 
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
 }
 
 
