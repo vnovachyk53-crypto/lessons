@@ -1,0 +1,78 @@
+@import url("reset.css");
+
+body{
+	background-color: gray;
+}
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	width: 70%;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-evenly; 
+	gap: 10px;
+	background-color: #222314;
+	color: aqua;
+	max-width: 1300px;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px 5px #342929;
+}
+
+.menu li a {
+	border-radius: 10px;
+	color: aqua;
+	font-size: 22px;
+	background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	margin: 0 auto;
+	display: inline-block;
+	transition-duration: 0.5s;
+	width: 420px;
+	padding: 20px;
+	height: 100%;
+}
+
+.menu li a:hover{
+	color: green;
+	transition-timing-function: steps(10, start);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);	
+}
+
+[class*="container"]:not(section):not(li) {
+	background-color: #222314;
+	font-size: 30px;
+	color: bisque;
+	padding: 15px;
+	margin-block: 30px;
+}
+
+.flex-item{
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	margin: 15px;
+	background-color: #342929;
+	text-align: center;
+}
+
+.display-flex-to-container{
+	display: flex;
+}
+
+.display-inline-flex-to-container{
+	display: inline-flex;
+}
+
+.flex-wrap-to-container{
+	display: flex;
+	flex-wrap: wrap;
+}
