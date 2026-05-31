@@ -1,0 +1,209 @@
+@import url("reset.css");
+@import url(fonts.css);
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	width: 70%;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 30px 10px 30px 10px;
+}
+.to-main{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 20px auto;
+	width: 70%;
+	border-radius: 10px;
+}
+
+.to-main-item a {
+	border-radius: 10px;
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+	background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	margin: 0 auto;
+	display: block;
+	transition-duration: 0.5s;
+	padding: 30px;
+}
+
+.to-main-item a:hover{
+	color: green;
+	transition-timing-function: steps(10, start);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);	
+}
+
+.wrapper{
+	font-family: "Poppins" , sans-serif;
+}
+
+.get-in-touch{
+	height: 100%;
+	width: 100%;
+}
+
+.get-in-touch-container{
+	max-width: 1163px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+
+.get-in-touch-content{
+	margin: 120px 52px 63px 52px;
+}
+
+.get-in-touch-form ,
+.get-in-touch-form label,
+.get-in-touch-form div textarea
+.get-in-touch-form div button{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.get-in-touch-form div{
+	max-width: 527px;
+}
+
+.get-in-touch-form div:not(:nth-child(4)){
+	margin: 36px auto;
+}
+
+.get-in-touch-form div:nth-child(4){
+	margin: 0 auto 49px;
+}
+
+.get-in-touch-form div label span,
+.get-in-touch-form div span
+{
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 22px; 
+}
+
+.get-in-touch-form div label input{
+	color: #9F9F9F;
+	border: 1px solid #9F9F9F;
+	border-radius: 10px;
+	padding: 26px 0 26px 30px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.get-in-touch-form div  textarea{
+	resize: vertical;
+	width: 100%;
+	color: #9F9F9F;
+	border: 1px solid #9F9F9F;
+	border-radius: 10px;
+	padding: 26px 0 44px 30px;
+	font-family: "Poppins" , sans-serif;
+	margin: 0 auto 49px;
+
+}
+
+.get-in-touch-form div button{
+	padding: 14px 90px;
+	background-color: #B88E2F;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.3s all ease;
+}
+
+.get-in-touch-form div button:hover{
+	color: #B88E2F;
+	background-color: aliceblue;
+}
+
+.asgaard-sofa-container {
+	max-width: 1163px;
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+
+.asgaard-sofa-content{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.size-form span:not(label > span) ,
+.color-form span{
+	font-size: 14px;
+	color: #9F9F9F;
+	line-height: 1.5;
+	display: block;
+	margin-bottom: 12px;
+	margin-top: 16px;
+}
+
+.size-form label {
+	position: relative;
+	margin-right: 16px;
+}
+
+.size-form label span {
+	position: absolute;
+	font-size: 13px;
+	margin: 5px 8px;
+	line-height: 1.5;
+}
+
+.size-form label:first-of-type span {
+	position: absolute;
+	font-size: 13px;
+	margin: 5px 12px;
+	line-height: 1.5;
+}
+
+
+
+.size-form label input{
+	appearance: none;
+	border-radius: 5px;
+    background-color: #f9f1e7;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.size-form label span:hover,
+.size-form label:has(input:hover) span,
+.size-form label span:hover + input,
+.size-form label input:hover,
+.size-form label span:checked,
+.size-form label:has(input:checked) span,
+.size-form label span:checked + input,
+.size-form label input:checked{
+	background-color: #B88E2F;
+	color: #fff;
+	cursor: pointer;
+}
+
+.color-form label input{
+	appearance: none;
+	display: inline-block;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	background-color: #816DFA;
+	border-radius: 50%;
+	margin-right: 16px;
+	transition: 0.3s;
+}
+
+.color-form label:nth-of-type(2) input{
+	background-color: #000;
+}
+
+.color-form label:nth-of-type(3) input{
+	background-color: #B88E2F;
+}
+
+.color-form label input:hover,
+.color-form label input:checked{
+	box-shadow: 5px 5px 5px gray;
+}

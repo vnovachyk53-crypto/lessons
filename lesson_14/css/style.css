@@ -1,0 +1,96 @@
+@import url("reset.css");
+
+body{
+	background-color: gray;
+}
+
+.headline {
+	color: blueviolet;
+	font-size: 50px;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	width: 70%;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.to-figma{
+	background-color: #222314;
+	color: aqua;
+	max-width: 1200px;
+	margin: 20px auto;
+	width: 70%;
+	border-radius: 10px;
+}
+
+.to-figma-item a{
+	border-radius: 10px;
+	color: aqua;
+	font-size: 52px;
+	text-align: center;
+	background: radial-gradient(circle,rgba(196, 0, 92, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	margin: 0 auto;
+	display: block;
+	transition: all 0.5s ease;
+	padding: 30px;
+}
+
+.to-figma-item a:hover {
+	background: radial-gradient(circle,rgba(125, 0, 92, 1) 0%, rgba(248, 187, 233, 1) 100%);
+	color: green;
+	transition-timing-function: steps(10, start);
+}
+
+.form-get-text{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: space-evenly;
+}
+
+.form-get-text div{
+	background-color: #43928434;
+	padding: 15px;
+	align-self: center;
+}
+
+.form-get-text div input,
+.form-get-text div label input{
+	font-size: 30px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.form-get-text div label{
+	color: chocolate;
+	font-size: 35px;
+}
+
+.form-get-text div input:focus,
+.form-get-text div label input:focus{
+	background-color: #682001;
+	color: bisque;
+}
+
+.buttons{
+	display: flex;
+	gap: 30px;
+	position: absolute;
+	top: 100%;
+	margin-top: 50px;
+}
+
+.buttons button{
+	font-size: 30px;
+	color: beige;
+	transition: 0.3s ease;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.buttons button:hover{
+	color: turquoise;
+	background-color: #222314;
+}

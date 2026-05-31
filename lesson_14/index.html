@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>HTML FORMS</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="headline">
+			HTML FORMS
+		</h1>
+		<ul class="to-figma">
+			<li class="to-figma-item">
+				<a href="figma.html">
+					На сторінку з макетом
+				</a>
+			</li>
+		</ul>
+	</header>
+	<main>
+		<section class="forms">
+			<div class="forms-container">
+				<h2>
+					Forms
+				</h2>
+				<form method="get" action="#" enctype="multipart/form-data" class="form-get-text">
+					<div>
+						<input tabindex="2" required maxlength="12" minlength="2" autocomplete="off" name="form[]"
+							placeholder="Введіть ім'я" type="text" class="name">
+					</div>
+					<div>
+						<input tabindex="1" required maxlength="40" autocomplete="off" name="form[]"
+							placeholder="Введіть пошту" type="email" class="email">
+					</div>
+					<div>
+						<input tabindex="3" required maxlength="20" minlength="8" type="tel"
+							placeholder="Введіть номер телефон" name="form[]" class="number">
+					</div>
+					<div>
+						<input tabindex="4" type="hidden" value="цього поля немає" name="form[]" class="hidden">
+					</div>
+					<div>
+						<input tabindex="6" required minlength="8" maxlength="20" type="password"
+							placeholder="Введіть пароль" name="form[]" class="password">
+					</div>
+					<div>
+						<input tabindex="7" type="number" placeholder="Введіть число" name="form[]" class="number">
+					</div>
+					<div>
+						<label for="color">
+							Введіть колір
+							<input id="color" tabindex="8" type="color" name="form[]" class="color">
+						</label>
+					</div>
+					<div>
+						<input type="search" placeholder="Пошук" name="form[]" class="search">
+					</div>
+					<div>
+						<label for="date">
+							Оберіть дату
+							<input id="date" required type="date" name="form[]" class="date">
+						</label>
+					</div>
+					<div>
+						<label for="range">
+							Оберіть щось
+							<input id="range" type="range" value="50" name="form[]" class="">
+						</label>
+					</div>
+					<div class="buttons">
+						<button type="reset">
+							Очистити
+						</button>
+						<button type="submit">
+							Надіслати
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
