@@ -271,9 +271,8 @@
 	linear-gradient(180deg,rgba(53, 115, 85, 1) 0%, rgba(29, 72, 59, 1) 100%);
 	display: flex;
 	flex-direction: column;
-	max-height: 434px;
 	width: 100%;
-	flex: 1 1 400px;
+	flex: 1 1 420px;
 	position: relative;
 	height: auto;
 	align-self: center;
@@ -445,12 +444,14 @@
 
 /* cards-adaptive */
 
+@media (width > 1310px){
+	.special__card {
+		max-height: 434px;
+	}
+}
+
 @media (width < 1310px) {
 	.recipes__cards{
 		align-items: stretch
-	}
-	.special__card{
-		max-height: 1000px;
-		min-height: 580px;
 	}
 }
