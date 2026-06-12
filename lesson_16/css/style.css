@@ -285,6 +285,11 @@
 
 .special__card--main{
 	align-self: center;
+	display: flex;
+}
+
+.special__card--main img{
+	align-self: center;
 }
 
 .special__card--footer{
