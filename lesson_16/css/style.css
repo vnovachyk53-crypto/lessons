@@ -15,6 +15,10 @@
 	margin: 0 auto;
 }
 
+h1{
+	display: none;
+}
+
 /* menu */
 
 .header {
@@ -66,7 +70,6 @@
 
 .menu__item a{
 	font-weight: 500;
-	letter-spacing: -2%;
 	font-size: 16px;
 	line-height: 1.18; /* 19/16 */
 	position: relative;
@@ -214,6 +217,21 @@
 	right: 12px;
 }
 
+.recipes__card.recipes__card--favorited .image--box .favorite__button--box svg path{
+	fill: #FF6363;
+	cursor: pointer;
+}
+
+.recipes__card:not(.recipes__card--favorited) .image--box .favorite__button--box svg path{
+	fill: #DBE2E5;
+	cursor: pointer;
+	transition: fill 0.3s ease;
+}
+
+.recipes__card:not(.recipes__card--favorited) .image--box .favorite__button--box svg path:hover{
+	fill: #FF6363;
+}
+
 .recipes__card--fill {
 	padding: 24px 8px 8px;
 }
@@ -240,7 +258,6 @@
 	color: rgba(0, 0, 0, 0.6);
 	font-size: 14px;
 	line-height: 1.2; /* 17/14 */
-	letter-spacing: -2%;
 	gap: 10px;
 }
 
@@ -271,8 +288,9 @@
 	linear-gradient(180deg,rgba(53, 115, 85, 1) 0%, rgba(29, 72, 59, 1) 100%);
 	display: flex;
 	flex-direction: column;
+	max-height: 434px;
 	width: 100%;
-	flex: 1 1 420px;
+	flex: 1 1 400px;
 	position: relative;
 	height: auto;
 	align-self: center;
@@ -283,11 +301,6 @@
 }
 
 .special__card--main{
-	align-self: center;
-	display: flex;
-}
-
-.special__card--main img{
 	align-self: center;
 }
 
@@ -300,7 +313,6 @@
 .special__card--footer a{
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.6);
-	letter-spacing: -0.2%;
 	line-height: 1.2; /* 17/14 */
 	position: relative;
 	transition: 0.3s;
@@ -444,14 +456,15 @@
 
 /* cards-adaptive */
 
-@media (width > 1310px){
-	.special__card {
-		max-height: 434px;
+@media (1199px < width < 1310px) {
+	.special__card{
+		max-height: 1000px;
+		min-height: 500px;
 	}
 }
 
-@media (width < 1310px) {
-	.recipes__cards{
-		align-items: stretch
+@media (width < 1200px) {
+	.special__card{
+		min-height: 440px;
 	}
 }
